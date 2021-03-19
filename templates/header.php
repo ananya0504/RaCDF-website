@@ -15,9 +15,9 @@
         <div class="nav-bar">
             <ul>
                 <li ><a href="#contact">Contact</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="regpage.php">Register</a></li>
-                <li><a href="index.php">Home</a></li>
+                <li><a href="../meetTheTeam/team.php">Team</a></li>
+                <li><a href="../registerForm/regpage.php">Register</a></li>
+                <li><a href="../frontPage/frontpage.php">Home</a></li>
             </ul>
         </div>
     </div>

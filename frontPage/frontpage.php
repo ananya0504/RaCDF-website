@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<?php include('../templates/header.php'); ?>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -48,4 +50,6 @@
       
     </section>
   </body>
+
+  <?php include('../templates/footer.php'); ?>
 </html>

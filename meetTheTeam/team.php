@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<?php include('../templates/header.php'); ?>
 <html lang="en" dir="ltr">
 <script src="https://kit.fontawesome.com/ab606e87e4.js" crossorigin="anonymous"></script>
   <head>
@@ -145,4 +147,6 @@ Reads historical genre as and when gets time.</p>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
   </body>
+
+  <?php include('../templates/footer.php'); ?>
 </html>

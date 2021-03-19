@@ -1,4 +1,4 @@
-	<?php include('templates/header.php'); ?>
+	<?php include('../templates/header.php'); ?>
 
 	<div class="a-page-wrapper">
 
@@ -37,6 +37,6 @@
       <hr>
     </div>
 
-	<?php include('templates/footer.php'); ?>
+	<?php include('../templates/footer.php'); ?>
 
 </html>
