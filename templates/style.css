@@ -1,0 +1,242 @@
+/* /////////////////////////////   */
+/* //////////NAVBAR  ///////////   */
+/* /////////////////////////////   */
+
+
+body{
+  margin:0;
+  padding:0;
+  }
+
+  .header {
+  position: sticky;
+  top: 0;
+  }
+
+  .nav-bar{
+  /* margin: 0;
+  padding: 0; */
+  overflow: hidden;
+  background-color: #D61B6B;
+  width: 100%;
+  }
+
+  .a-page-wrapper{
+  padding: 0 20px ;
+  }
+
+  li{
+  list-style-type: none;
+  float: right;
+  padding-bottom:15px;
+  }
+
+  li a{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-left: 1px solid #bbb;
+  }
+
+  /* Change the link color on hover */
+  li a:hover{
+  background-color: #EA5F78;
+  color: black
+  }
+
+
+
+
+
+/* /////////////////////////////   */
+/* //////////REGPAGE ///////////   */
+/* /////////////////////////////   */
+
+.a-page-wrapper h2{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.a-page-wrapper p{
+  font-size: 1em;
+}
+
+/* .a-page-wrapper b{
+  font-size: 12px;
+} */
+
+.introduction-writeup{
+  padding: 0 0 40px 0;
+}
+
+.openformbtn{
+  padding: 0 0 40px 0;
+}
+
+.a-btn a{
+  color:white;
+  text-decoration: none;
+}
+
+.a-btn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+}
+    
+.a-btn:hover{
+  opacity: 1;
+}
+    
+.a-message{
+  padding: 15px 40px;
+  background-color: #D61B6B;
+  cursor: pointer;
+  box-shadow: 0 7px #5f041f;
+}
+    
+.a-message:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.form-wrapper{
+  padding: 20px 50px;
+}
+
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.no-arrow {
+  -moz-appearance: textfield;
+}
+.no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+.Regform{
+  padding: 30px 20px 30px 20px;
+  background-color: white;
+}
+
+hr{
+  margin-bottom: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+  margin: 0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 8px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #3f464b;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="file"] {
+  border: 0;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  width: 100%;
+  color: #8a97a0;
+}
+
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+button {
+  padding: 19px 39px 19px 39px;
+  color: #FFF;
+  background-color: #D61B6B;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #D61B6B;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #D61B6B;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  form{
+    max-width: 480px;
+  }
+}
+
