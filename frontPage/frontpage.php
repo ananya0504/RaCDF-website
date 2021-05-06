@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <title>Rotaract Club of Delhi Femina</title>
     <link rel="stylesheet" href="style.css">
-<script src="https://kit.fontawesome.com/ab606e87e4.js" crossorigin="anonymous"></script>  </head>
+    <script src="https://kit.fontawesome.com/ab606e87e4.js" crossorigin="anonymous"></script>  
+  </head>
   <body>
     <hr>
     <section class = "banner">
