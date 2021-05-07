@@ -241,6 +241,208 @@ label.light {
 }
 
 
+/* Landing Page */
+
+.Nav
+{
+	padding-bottom: 3%;
+	background-color: #D61B6B;
+}
+
+img 
+{
+	width: 15%; 
+}
+
+.Nav ul
+{
+	list-style-type: none;
+	margin-right: 70px;
+	padding: 0;
+}
+
+.Nav li
+{	
+
+	display: inline;
+	position: relative;
+	margin-right: 70px;
+	left: 1100px;
+	
+}
+
+li a
+{
+	font-size: 20px;
+	color: white;
+	font-family: Barlow;
+}
+
+.banner
+{
+	background: url('collage.png');
+	height: 35em;
+	/*filter: grayscale(100%);*/
+
+}
+
+.banner-info .cloumn
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.banner h1
+{
+  
+  font-family: 'Barlow', sans-serif;
+  font-size: 80px;
+  font-weight:lighter;
+  line-height: 0.95;
+  letter-spacing: 0.02em;
+  height: 3%;
+  color: #D61B6B;
+  letter-spacing: 0.05em;
+}
+
+/* .banner-info-text
+{
+	margin-left: 10em;
+	margin-top: 9em;
+} */
+
+/* .banner-info-img
+{
+ /* margin-top: 9em; */
+ /* position: absolute;
+ left: 66%;
+}  */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.banner-info-img img{
+	  width: 50%;
+
+}
+
+ 
+ .column2
+ {	
+ 	background: white;
+	
+ }
+ .action
+{
+	display: inline-block;
+	text-align: center;
+	padding: 0 50px;
+	margin: 0 60px;
+	letter-spacing: 0.05em;
+	color: black;
+	font-family: 'Roboto', Serif;
+}
+
+h3
+{
+	font-size: 50px;
+}
+
+.column2
+{
+	margin-bottom: 0px;
+	
+}
+
+.pic
+{
+	display: inline-block;
+	height: 300px;
+	width: 220px;
+	border: 5px solid;
+	/*margin-left: 2px;*/
+	/*margin-right: -1px;*/
+	/*border-color: black;*/
+	/*background-color: black;*/
+}
+
+h2
+{
+	font-size: 60px;
+	text-align: center;
+	padding-top: 20px;
+	margin: 0px;
+}
+
+.avenue
+{
+	background: #D61B6B;
+	color: white;
+	/*height: 100px;*/
+	padding-bottom:0px;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.column3
+{
+	margin-left: 45px;
+}
+.c4s
+{
+	background: black;
+	height: 400px;
+	color:#D61B6B;
+	/*padding-top: 20px;*/
+	font-family: 'Rajdhani', sans-serif;
+
+}
+.pink
+{
+	background: #D61B6B;
+	
+	color: black; 
+}
+
+.c4s h3
+{
+		position: relative;
+		top:105px;
+}
+
+
+
+
+.footer
+{
+	background-color: #D61B6B; 
+	text-align: center;
+	margin-top: 20px;
+	padding: 40px;
+	font-family: 'Roboto',Serif;
+	font-size: 10px;
+	color: white;
+  width: auto;
+}
+
+.footer a
+{
+	color: white;
+
+}
+.footer .fa-2x 
+{
+	margin-left: 15px;
+}
+.footer h4
+{
+	font-size: 20px;
+	font-weight: 0.3px;
+}
+
 
 /*MEET THE TEAM*/
 .teamBody{
@@ -273,3 +475,4 @@ label.light {
   margin-right: 10px;
   width: 325px;
 }
+
