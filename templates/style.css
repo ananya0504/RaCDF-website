@@ -9,7 +9,7 @@ body{
   }
 
   .header {
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
   }
 
@@ -85,18 +85,18 @@ body{
   display: inline-block;
   border-radius: 4px;
 }
-    
+
 .a-btn:hover{
   opacity: 1;
 }
-    
+
 .a-message{
   padding: 15px 40px;
   background-color: #D61B6B;
   cursor: pointer;
   box-shadow: 0 7px #5f041f;
 }
-    
+
 .a-message:active{
   position: relative;
   top: 7px;
@@ -240,3 +240,36 @@ label.light {
   }
 }
 
+
+
+/*MEET THE TEAM*/
+.teamBody{
+  background-color: black;
+}
+.teamWrapper{
+  margin-right: 55px;
+}
+.card{
+  background-color:black ;
+  width: 290px;
+}
+.card-img-top{
+  height: 260px;
+}
+.card-title{
+  color: #d90166;
+  font-size: 20px;
+}
+.imageTeam img{
+  position: relative;
+ left: 20px;
+}
+.card-text{
+  color: #FFFFFF/*#A8A8A8*/;
+  line-height: 17px;
+  font-size: 12px;
+}
+.card-block{
+  margin-right: 10px;
+  width: 325px;
+}
