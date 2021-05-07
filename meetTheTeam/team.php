@@ -10,13 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato:wght@300&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet"  href="teamCss.css">
+    <link rel="stylesheet"  href="../templates/style.css">
   </head>
-  <body>
+  <body class="teamBody">
+    <div>
+    </div>
+
+    <div class="teamWrapper">
     <div class="row">
         <div class="col-md-6 col-lg-3">
             <div class="card">
-                <div class="image">
+                <div class="imageTeam">
                 <img class="card-img-top img-fluid" src="portrait.jpg">
                 </div>
                 <div class="card-block">
@@ -31,7 +35,7 @@ She likes to paint, and the lucky ones get to receive these customised gifts. Ay
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -46,7 +50,7 @@ If an attempt to bring a smile to someone’s face (including herself) could be 
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -57,7 +61,7 @@ If an attempt to bring a smile to someone’s face (including herself) could be 
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -68,7 +72,7 @@ If an attempt to bring a smile to someone’s face (including herself) could be 
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -82,7 +86,7 @@ I have always been a person who likes making friends and through Rotaract this i
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -95,7 +99,7 @@ Currently im a full time service employee. Though managing it with rotaract is d
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -108,7 +112,7 @@ Reads historical genre as and when gets time.</p>
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -119,7 +123,7 @@ Reads historical genre as and when gets time.</p>
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -130,7 +134,7 @@ Reads historical genre as and when gets time.</p>
         </div>
         <div class="col-md-6 col-lg-3">
             <div class="card">
-              <div class="image">
+              <div class="imageTeam">
               <img class="card-img-top img-fluid" src="portrait.jpg">
               </div>
                 <div class="card-block">
@@ -140,6 +144,7 @@ Reads historical genre as and when gets time.</p>
             </div>
         </div>
     </div>
+  </div>
 
 
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
