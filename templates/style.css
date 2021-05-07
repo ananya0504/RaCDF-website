@@ -451,14 +451,14 @@ h2
 .teamWrapper{
   margin-right: 55px;
 }
-.card{
+.teamWrapper .card{
   background-color:black ;
   width: 290px;
 }
-.card-img-top{
+.teamWrapper .card-img-top{
   height: 260px;
 }
-.card-title{
+.teamWrapper .card-title{
   color: #d90166;
   font-size: 20px;
 }
@@ -466,12 +466,12 @@ h2
   position: relative;
  left: 20px;
 }
-.card-text{
+.teamWrapper .card-text{
   color: #FFFFFF/*#A8A8A8*/;
   line-height: 17px;
   font-size: 12px;
 }
-.card-block{
+.teamWrapper .card-block{
   margin-right: 10px;
   width: 325px;
 }
