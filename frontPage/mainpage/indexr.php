@@ -18,7 +18,7 @@
 
 
     <div class="banner-info">
-      <div class=column">
+      <div class="column">
         <h1>
           Strength <br> In <br> Inclusivity.
         </h1>
@@ -38,23 +38,26 @@
 
 
 
-<div class="row pt-5">
-  <div class="col-sm-4">
+<div class="row">
+  <div class="col col-md-6 col-lg-3">
     <h2>Action Word</h2>
   </div>
-  <div class="col-sm-4">
+  <div class="col col-md-6 col-lg-3">
     <h2>Action Word</h2>
   </div>
-  <div class="col-sm-4">
+  <div class="col col-md-6 col-lg-3">
+    <h2>Action Word</h2>
+  </div>
+  <div class="col col-md-6 col-lg-3">
     <h2>Action Word</h2>
   </div>
 </div>
 
 
 <div class="container">
-  <div class="row my-5  align-middle">
-    <div class="col-md-3">
-      <div class="card ml-10">
+  <div class="row align-middle">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card">
         <div class="card-body text-center">
           <img src="Strength.png" class="card-img-top">
           <h3 class="card-title "> Lorem Ipsum </h3>
@@ -63,8 +66,8 @@
       </div>
     </div>
 
-    <div class="col-md-3">
-      <div class="card ml-1">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card">
         <div class="card-body text-center">
           <img src="Strength.png" class="card-img-top ">
           <h3 class="card-title "> Lorem Ipsum </h3>
@@ -72,8 +75,8 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="card ml-10">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card">
         <div class="card-body text-center">
           <img src="Strength.png" class="card-img-top">
           <h3 class="card-title "> Lorem Ipsum </h3>
@@ -81,8 +84,8 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="card ml-10">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card">
         <div class="card-body text-center">
           <img src="Strength.png" class="card-img-top">
           <h3 class="card-title "> Lorem Ipsum </h3>
