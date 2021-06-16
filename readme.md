@@ -31,5 +31,5 @@ These are the screenshots of our work -
 
 
 
-### If you like my work please give me a :star: :blush:
+### If you like our work please give us a :star: :blush:
 
